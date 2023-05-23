@@ -17,7 +17,7 @@ h1{
     border-radius: 6px;
     overflow: hidden;
 }
-.card__img{
+.thumbnail{
     width: 320px;
     height: 320px;
 }
