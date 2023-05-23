@@ -61,18 +61,26 @@ ul.content__projects{
     border-radius: 6px;
     padding: 6px;
     text-align: left;
+    font-size: 0px;
 }
 .project{
     background-color: lightgray;
     border-radius: 4px;
     display: inline-block;
     padding: 2px 6px;
+    font-size: 16px;
     /* margin-right: 4px; */
 }
 
-.project:not(:last-child){
-    margin-right: 4px;
-}
+
 /* .project:last-child{
     margin-right: 0px;
 } */
+
+.project:first-child{
+    margin-bottom: 4px;
+}
+.project:not(:last-child){
+    margin-right: 4px;
+}
+
